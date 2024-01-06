@@ -5,10 +5,26 @@ We are going to make this as close as we can to an actual Scorecard, might add f
 
 
 proper team - ✅
+
+
 players name - ✅ 
+
+
 make the computer speak - ✅
+
+
 wicket style - 
+
+
 out batsman - 
+
+
 wickt taking bowler -
+
+
 new batsman
+
+
 DLS method - 
+
+
