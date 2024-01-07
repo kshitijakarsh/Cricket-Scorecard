@@ -1,6 +1,7 @@
 import playsound
 from gtts import gTTS
 import random
+import batsman
 
 location = input("Location : ")
 
@@ -13,15 +14,21 @@ def speak(text):
 
 team_1 = input("Enter Team 1 Name ")
 team_1_players = []
+
 for i in range(11):
     players_team_1 = input(f"Enter player names {i} > ")
     team_1_players.append(players_team_1)
+
+batsman.batsman(team_1_players)
+
 
 team_2 = input("Enter Team 2 Name ")
 team_2_players = []
 for j in range(11):
     players_team_2 = input(f"Enter player names {j} > ")
     team_2_players.append(players_team_2)
+
+batsman.batsman(team_2_players)
 
 
 speak(f"""Ladies and gentlemen, welcome to the electrifying atmosphere of {location} as we bring you live coverage of this highly anticipated cricket match between {team_1} and {team_2}. The stage is set, the players are ready, and the excitement is palpable as these two formidable teams prepare to battle it out on the field.
@@ -47,8 +54,14 @@ speak(f"We have the {team_1} whose line up will have players like")
 for k in range(11):
     speak(team_1_players[k])
 
-speak(f"We have the {team_1} whose line up will have players like")
+speak(f"We have the {team_2} whose line up will have players like")
 for l in range(11):
     speak(team_2_players[l])
+
+# speak(f"the batsmen from {team_1} are ")
+# batter_1_len = len(batsman_team_1)
+# for a in batter_1_len:
+#     speak(batsman_team_1(a))
+
 
 
