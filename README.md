@@ -13,13 +13,13 @@ players name - ✅
 make the computer speak - ✅
 
 
-wicket style - 
+wicket style - ✅
 
 
 out batsman - 
 
 
-wickt taking bowler -
+wickt taking bowler - 
 
 
 new batsman
