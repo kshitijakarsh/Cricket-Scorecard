@@ -1,6 +1,5 @@
 def batting_order(team_1):
-    batsman = ""
-    batsman2 = ""
+
     i = 0
     length = len(team_1)
     wicket = 0
@@ -9,9 +8,11 @@ def batting_order(team_1):
         if b == "yes":
             wicket == wicket + 1
             i = i + 1
+            out = input("Who got out? > ")
             if wicket <= 10:
-                batsman = team_1[i]
-                batsman2 = team_1[i + 1]
+                team_1.remove(out)
+                batsman = team_1[0]
+                batsman2 = team_1[1]
                 print(batsman)
                 print(batsman2)
                 break
