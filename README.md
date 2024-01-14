@@ -16,15 +16,17 @@ make the computer speak - ✅
 wicket style - ✅
 
 
-out batsman - 
+out batsman - ✅
 
 
 wickt taking bowler - 
 
 
-new batsman
+new batsman - ✅
 
 
 DLS method - 
 
+
+Bar Graph Over Wise - ✅
 
