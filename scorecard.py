@@ -1,8 +1,7 @@
 import toss
 import batsman_change
 import matplotlib.pyplot as plt
-import bowler
-import numpy
+import numpy as np
 
 location = input("Location : ")
 
@@ -22,7 +21,6 @@ for j in range(11):
     team_2_players.append(players_team_2)
 
 
-bowler.bowlers(team_2_players)
 
 toss_winner = toss.toss_winner(team_1, team_2)
 toss_decision = toss.toss_decision()
@@ -66,8 +64,19 @@ while balls > i:
 
 
         if i >= 0 and i % 6 == 0:
-            run_over = 0
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
+            run_over = 0
 
         overs = int(i / 6)
         over_ball = i % 6
@@ -85,6 +94,17 @@ while balls > i:
         if i >= 0 and i % 6 == 0:
 
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -100,6 +120,17 @@ while balls > i:
 
         if i >= 0 and i % 6 == 0:
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -115,6 +146,17 @@ while balls > i:
 
         if i >= 0 and i % 6 == 0:
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -130,6 +172,17 @@ while balls > i:
 
         if i >= 0 and i % 6 == 0:
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -145,6 +198,17 @@ while balls > i:
 
         if i >= 0 and i % 6 == 0:
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -160,6 +224,17 @@ while balls > i:
 
         if i >= 0 and i % 6 == 0:
             over_by_over_run.append(run_over)
+            if bowler_name == team_2_players[6]:
+                run_b1 = run_b1 + run_over
+            elif bowler_name == team_2_players[7]:
+                run_b2 = run_b2 + run_over
+            elif bowler_name == team_2_players[8]:
+                run_b3 = run_b3 + run_over
+            elif bowler_name == team_2_players[9]:
+                run_b4 = run_b4 + run_over
+            elif bowler_name == team_2_players[10]:
+                run_b5 = run_b5 + run_over
+            bowler_name = input("Enter bowler name > ")
             run_over = 0
 
         overs = int(i / 6)
@@ -173,42 +248,21 @@ while balls > i:
         batsman_change.batting_order(team_1_players)
         i = i + 1
 
-    if i >= 0 and i % 6 == 0:
-        over_by_over_run.append(run_over)
-        if bowler_name == team_2_players[6]:
-            run_b1 = run_b1 + run_over
-        elif bowler_name == team_2_players[7]:
-            run_b2 = run_b2 + run_over
-        elif bowler_name == team_2_players[8]:
-            run_b3 = run_b3 + run_over
-        elif bowler_name == team_2_players[9]:
-            run_b4 = run_b4 + run_over
-        elif bowler_name == team_2_players[10]:
-            run_b5 = run_b5 + run_over
-        bowler_name = input("Enter bowler name > ")
-        run_over = 0
-        overs = int(i / 6)
-        over_ball = i % 6
-        print(f"{overs} . {over_ball}")
 
 
-print(f"{team_2_players[6]} was hit for {run_b1}")
-print(f"{team_2_players[7]} was hit for {run_b2}")
-print(f"{team_2_players[8]} was hit for {run_b3}")
-print(f"{team_2_players[9]} was hit for {run_b4}")
-print(f"{team_2_players[10]} was hit for {run_b5}")
-
-
-
+print(f"{team_2_players[6]} was hit for {run_b1} runs")
+print(f"{team_2_players[7]} was hit for {run_b2} runs")
+print(f"{team_2_players[8]} was hit for {run_b3} runs")
+print(f"{team_2_players[9]} was hit for {run_b4} runs")
+print(f"{team_2_players[10]} was hit for {run_b5} runs")
 
 print(over_by_over_run)
-plt.bar(over,over_by_over_run)
-plt.xticks(over)
-plt.show()
+# plt.bar(over,over_by_over_run)
+# plt.show()
 
 if toss_winner == team_1:
     if toss_decision == "bat":
-        print(f"the {toss_winner}n has posted a target of {run} at a loss of {wickets} wickets")
+        print(f"the {toss_winner} has posted a target of {run} at a loss of {wickets} wickets")
 else:
     print(f"the {toss_winner} has stopped the {team_2} at a target of {run} runs for {wickets} wickets")
 
