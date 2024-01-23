@@ -10,8 +10,6 @@ Welcome to the Cricket Scorecard project! This project aims to create a fully-fl
 
 - **Team Scores:** Get a complete overview of team scores, including the total runs, wickets fallen, and overs bowled.
 
-- **Match Summary:** Access a concise summary of the entire match, highlighting key moments, top performers, and more.
-
 - **Real-time Updates:** Experience the thrill of the game with real-time updates as the match progresses.
 
 - **User-friendly Interface:** The scorecard will have an intuitive and user-friendly interface for easy navigation and understanding.
