@@ -1,3 +1,4 @@
+import striker_change
 def batting_order(team_1):
 
     i = 0
@@ -13,8 +14,9 @@ def batting_order(team_1):
                 team_1.remove(out)
                 batsman = team_1[0]
                 batsman2 = team_1[1]
-                print(batsman)
-                print(batsman2)
+                striker_change.striker_change_3(batsman,batsman2)
+                # print(batsman)
+                # print(batsman2)
                 break
         elif b == "no":
             break
