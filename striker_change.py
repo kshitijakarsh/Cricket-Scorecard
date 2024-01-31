@@ -1,23 +1,14 @@
-import batsman_change
+def striker_change_3(team_1,strike,non_strike, out):
+    i = 0
+    length = len(team_1)
+    wicket = 0
+    while i <= length:
+        wicket == wicket + 1
+        i = i + 1
+        if wicket <= 10:
+            team_1.remove(out)
+            old_batsman = team_1[0]
+            new_batsman = team_1[1]
+            break
+    return new_batsman
 
-def striker_change(strike, non_strike, run):
-    c = ""
-    if run == 1 or run == 3:
-        c = strike
-        striker = non_strike
-        non_striker = c
-    print(striker)
-    print(non_striker)
-
-def striker_change_2(strike, non_strike):
-    d = strike
-    strike = non_strike
-    non_strike = d
-    print(strike)
-    print(non_strike)
-
-def striker_change_3(batsman,batsman2):
-    strike = batsman
-    non_strike = batsman2
-    print(strike)
-    print(non_strike)
